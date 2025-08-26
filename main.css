@@ -1,0 +1,59 @@
+html, body {
+  height: 100%; /* Ensures both html and body take up 100% of their parent's height */
+  margin: 0;   /* Removes default browser margins */
+  padding: 0;  /* Removes default browser padding */
+}
+
+html {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-image: url('./background.png');
+    background-size: cover; /* This makes the background cover the entire viewport */
+    background-position: top center; /* This centers the background image */
+    background-attachment: fixed; /* This makes the background stay in place when you scroll */
+    background-repeat: no-repeat;
+}
+.main {
+    position: relative; right: 15%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 50px;
+}
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #f4f4f4;
+}
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #f4f4f4;
+}
+#copyDiscordUsernameButton {
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
